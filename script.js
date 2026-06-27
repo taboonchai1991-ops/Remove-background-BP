@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const srcCtx = srcCanvas.getContext('2d');
             srcCtx.drawImage(mainImage, 0, 0);
 
-            const maxSize = 1024;
+            const maxSize = 512;
             let w = srcCanvas.width,
                 h = srcCanvas.height;
             if (w > maxSize || h > maxSize) {
